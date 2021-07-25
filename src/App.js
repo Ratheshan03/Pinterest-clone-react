@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Mainboard from "./components/Mainboard";
 import unsplash from "./api/unsplash";
+// import db from "./firebase";
 
 function App() {
   const [pins, setNewPins] = useState([]);
